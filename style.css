@@ -16,8 +16,26 @@ img {
     margin-bottom: -4px;
 }
 
+img:hover {
+    opacity: .8;
+}
+
 .one-third {
     width: 29%;
     float: left;
     margin: 2%;
+}
+
+@media screen and (max-width: 768px) {
+    .one-third {
+        width: 48%;
+        margin: 1%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .one-third {
+        width: 98%;
+        margin: 1%;
+    }
 }
